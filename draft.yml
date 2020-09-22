@@ -1,0 +1,20 @@
+models:
+
+  Elector:
+    pd_e: nullable string:20
+    ElectorNumberPrefix: nullable string:20
+    ElectorNumber: nullable string:20
+    ElectorNumberSuffix: nullable string:20
+    ElectorMarkers: nullable string:20
+    ElectorDOB: nullable date
+    ElectorSurname: nullable string:20
+    ElectorForename: nullable string:20
+    PostCode: nullable string:20
+    Address1: nullable string:20
+    Address2: nullable string:20
+    Address3: nullable string:20
+    Address4: nullable string:20
+    Address5: nullable string:20
+    Address6: nullable string:20
+    timestamps: true
+    softDeletes: true

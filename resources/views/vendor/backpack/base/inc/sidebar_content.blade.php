@@ -11,4 +11,5 @@
     </ul>
   </li>
 
-  
+<li class='nav-item'><a class='nav-link' href='{{ backpack_url('elector') }}'><i class='nav-icon la la-question'></i> Electors</a></li>
+<li class='nav-item'><a class='nav-link' href='{{ backpack_url('electordata') }}'><i class='nav-icon la la-question'></i> ElectorDatas</a></li>
